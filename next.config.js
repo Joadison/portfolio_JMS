@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  distDir: 'build',
+  output: 'export',
   images: {
     domains: ['avatars.githubusercontent.com'],
   },
