@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  distDir: 'build',
+  images: {
+    domains: ['avatars.githubusercontent.com'],
+  },
+}
 
-module.exports = {
-    images: {
-      domains: ['avatars.githubusercontent.com'], // Adicione o domínio externo aqui
-    },
-  }
-  
+module.exports = nextConfig
+
