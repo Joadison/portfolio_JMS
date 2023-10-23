@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="text-[1.5rem] font-semibold">
           <Link href="/">Joadison MS Portfolio</Link>
           <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-            <h1>Joadison Macedo Silva / Dev Junior</h1>
+            <h1>Joadison Macedo Silva</h1><div className="none">/</div><h1>Dev Junior</h1>
           </div>
         </div>
         <Link
