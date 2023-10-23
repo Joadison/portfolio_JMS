@@ -1,12 +1,9 @@
 {
   "name": "jms_portfolio",
   "version": "0.1.0",
-  "homepage": "https://Joadison.github.io/portfolio_JMS",
   "private": true,
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build", 
-    "dev": "next dev --port 3555",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
